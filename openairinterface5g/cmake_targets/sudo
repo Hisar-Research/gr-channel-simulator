@@ -1,0 +1,46 @@
+[93m[UTIL]   mlockall() failed: 12, Cannot allocate memory
+[0m[ENB_APP]   nfapi (0) running mode: MONOLITHIC
+[0m[GNB_APP]   Getting GNBSParams
+[0m[93m[UTIL]   no SYS_NICE capability: cannot set thread priority and affinity, consider running with sudo for optimum performance
+[0m[OPT]   OPT disabled
+[0m[HW]   Version: Branch: develop Abrev. Hash: 69a84825fb Date: Wed Sep 4 15:53:35 2024 +0000
+[0m[NR_PHY]   RC.gNB = 0x562f77cb8b50
+[0m[NR_PHY]   PRB blacklist 
+[0m[NR_PHY]   Copying 0 blacklisted PRB to L1 context
+[0m[PHY]   L1_RX_THREAD_CORE -1 (15)
+[0m[PHY]   TX_AMP = 519 (-36 dBFS)
+[0m[PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+[0m[PHY]   Installing callbacks for IF_Module - UL_indication
+[0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x562f77cd5550
+[0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+[0m[PHY]   create_gNB_tasks() Task ready initialize structures
+[0m[PHY]   No prs_config configuration found..!!
+[0m[GNB_APP]   pdsch_AntennaPorts N1 1 N2 1 XP 1 pusch_AntennaPorts 1
+[0m[GNB_APP]   minTXRXTIME 6
+[0m[GNB_APP]   SIB1 TDA 5
+[0m[GNB_APP]   CSI-RS 0, SRS 0, 256 QAM may be on, delta_MCS off, maxMIMO_Layers -1, HARQ feedback enabled, num DLHARQ:16, num ULHARQ:16
+[0m[GNB_APP]   sr_ProhibitTimer 0, sr_TransMax 64, sr_ProhibitTimer_v1700 0, t300 400, t301 400, t310 2000, n310 10, t311 3000, n311 1, t319 400
+[0m[RRC]   Read in ServingCellConfigCommon (PhysCellId 0, ABSFREQSSB 430590, DLBand 66, ABSFREQPOINTA 430086, DLBW 25,RACH_TargetReceivedPower -118
+[0m[1;31m[NR_MAC]   nrarfcn 430590 is not on the channel raster for step size 20
+[0m[RRC]   absoluteFrequencySSB 430590 corresponds to 2152950000 Hz
+[0m[MAC]   [MAIN] Init function start:nb_nr_macrlc_inst=1
+[0m[UTIL]   threadCreate() for MAC_STATS: creating thread (no affinity, default priority)
+[0mCMDLINE: "./ran_build/build/nr-softmodem" "-O" "../targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band66.fr1.25PRB.usrpx300.conf" "--sa" "--rfsim" "--rfsimulator.prop_delay" "20" "-d" 
+[LIBCONFIG] Path for include directive set to: ../targets/PROJECTS/GENERIC-NR-5GC/CONF
+[CONFIG] function config_libconfig_init returned 0
+[CONFIG] config module libconfig loaded
+[CONFIG] debug flags: 0x00000000
+log init done
+Reading in command-line options
+Configuration: nb_rrc_inst 1, nb_nr_L1_inst 1, nb_ru 1
+configuring for RAU/RRU
+Initializing northbound interface for L1
+[PHY]   Installing callbacks for IF_Module - UL_indication
+[0m[NR_MAC]   Configuring common parameters from NR ServingCellConfig
+[0m[NR_MAC]   DL_Bandwidth:5
+[0m[1;31m[NR_MAC]   nrarfcn 430086 is not on the channel raster for step size 20
+[0m[NR_MAC]   DL_Bandwidth:5
+[0m[1;31m[NR_MAC]   nrarfcn 350086 is not on the channel raster for step size 20
+[0m../../../openair2/LAYER2/NR_MAC_gNB/main.c:57 nrmac_stats_thread() Exiting OAI softmodem: _Assert_Exit_
+[NR_MAC]   ssb_OffsetPointA 4, ssb_SubcarrierOffset 0
+[0m
