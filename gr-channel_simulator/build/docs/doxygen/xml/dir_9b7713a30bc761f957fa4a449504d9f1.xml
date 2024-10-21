@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_9b7713a30bc761f957fa4a449504d9f1" kind="dir">
+    <compoundname>channel_simulator</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="channelModel_8h">channelModel.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/user/Masaüstü/gr-channel_simulator/include/gnuradio/channel_simulator/"/>
+  </compounddef>
+</doxygen>

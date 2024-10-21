@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacegr_1_1channel__simulator" kind="namespace" language="C++">
+    <compoundname>gr::channel_simulator</compoundname>
+    <innerclass refid="classgr_1_1channel__simulator_1_1channelModel" prot="public">gr::channel_simulator::channelModel</innerclass>
+    <innerclass refid="classgr_1_1channel__simulator_1_1channelModel__impl" prot="public">gr::channel_simulator::channelModel_impl</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/user/Masaüstü/gr-channel_simulator/include/gnuradio/channel_simulator/channelModel.h" line="15" column="29"/>
+  </compounddef>
+</doxygen>

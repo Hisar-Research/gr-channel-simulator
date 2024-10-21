@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/gnuradio/channel_simulator/api.h
+gnuradio/attributes.h
+-
+
+../include/gnuradio/channel_simulator/channelModel.h
+gnuradio/channel_simulator/api.h
+-
+gnuradio/sync_decimator.h
+-
+
+/home/user/Masaüstü/gr-channel_simulator/lib/channelModel_impl.cc
+gnuradio/io_signature.h
+-
+channelModel_impl.h
+/home/user/Masaüstü/gr-channel_simulator/lib/channelModel_impl.h
+fstream
+-
+gnuradio/filter/fir_filter.h
+-
+cstdlib
+-
+chrono
+-
+
+/home/user/Masaüstü/gr-channel_simulator/lib/channelModel_impl.h
+gnuradio/channel_simulator/channelModel.h
+-
+gnuradio/filter/fir_filter.h
+-
+fstream
+-
+

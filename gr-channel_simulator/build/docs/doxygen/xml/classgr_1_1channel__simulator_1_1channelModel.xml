@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1channel__simulator_1_1channelModel" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::channel_simulator::channelModel</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_decimator</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1channel__simulator_1_1channelModel__impl" prot="public" virt="non-virtual">gr::channel_simulator::channelModel_impl</derivedcompoundref>
+    <includes refid="channelModel_8h" local="no">channelModel.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1channel__simulator_1_1channelModel_1a1df16bee408f2a579afb3cda5e533a63" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1channel__simulator_1_1channelModel" kindref="compound">channelModel</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;channelModel&gt; gr::channel_simulator::channelModel::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Masaüstü/gr-channel_simulator/include/gnuradio/channel_simulator/channelModel.h" line="25" column="31" bodyfile="/home/user/Masaüstü/gr-channel_simulator/include/gnuradio/channel_simulator/channelModel.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1channel__simulator_1_1channelModel_1ad017ad7dc05cb5627b3917ac53ffcc16" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1channel__simulator_1_1channelModel_1a1df16bee408f2a579afb3cda5e533a63" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::channel_simulator::channelModel::make</definition>
+        <argsstring>(int decimation=4, std::vector&lt; float &gt; taps={1.0})</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>decimation</declname>
+          <defval>4</defval>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>taps</declname>
+          <defval>{1.0}</defval>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1channel__simulator_1_1channelModel" kindref="compound">channel_simulator::channelModel</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1channel__simulator_1_1channelModel" kindref="compound">channel_simulator::channelModel</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1channel__simulator_1_1channelModel_1ad017ad7dc05cb5627b3917ac53ffcc16" kindref="member">channel_simulator::channelModel::make</ref> is the public interface for creating new instances. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Masaüstü/gr-channel_simulator/include/gnuradio/channel_simulator/channelModel.h" line="35" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1channel__simulator_1_1channelModel_1a694e5c8da4102f4434347eeef9c2e393" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::channel_simulator::channelModel::set_taps</definition>
+        <argsstring>(std::vector&lt; float &gt; taps)=0</argsstring>
+        <name>set_taps</name>
+        <reimplementedby refid="classgr_1_1channel__simulator_1_1channelModel__impl_1aec79a46f782101b2c45dc94b92fbd967">set_taps</reimplementedby>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Masaüstü/gr-channel_simulator/include/gnuradio/channel_simulator/channelModel.h" line="36" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1channel__simulator_1_1channelModel_1a5b91d849fad1d91b580ff28f18defed2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>virtual std::vector&lt;float&gt; gr::channel_simulator::channelModel::taps</definition>
+        <argsstring>() const =0</argsstring>
+        <name>taps</name>
+        <reimplementedby refid="classgr_1_1channel__simulator_1_1channelModel__impl_1a7e4a6a15bd11b874f9d4bdbe229a7817">taps</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Masaüstü/gr-channel_simulator/include/gnuradio/channel_simulator/channelModel.h" line="37" column="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>gr::channel_simulator::channelModel_impl</label>
+        <link refid="classgr_1_1channel__simulator_1_1channelModel__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::sync_decimator</label>
+      </node>
+      <node id="1">
+        <label>gr::channel_simulator::channelModel</label>
+        <link refid="classgr_1_1channel__simulator_1_1channelModel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::sync_decimator</label>
+      </node>
+      <node id="1">
+        <label>gr::channel_simulator::channelModel</label>
+        <link refid="classgr_1_1channel__simulator_1_1channelModel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/user/Masaüstü/gr-channel_simulator/include/gnuradio/channel_simulator/channelModel.h" line="23" column="1" bodyfile="/home/user/Masaüstü/gr-channel_simulator/include/gnuradio/channel_simulator/channelModel.h" bodystart="22" bodyend="38"/>
+    <listofallmembers>
+      <member refid="classgr_1_1channel__simulator_1_1channelModel_1ad017ad7dc05cb5627b3917ac53ffcc16" prot="public" virt="non-virtual"><scope>gr::channel_simulator::channelModel</scope><name>make</name></member>
+      <member refid="classgr_1_1channel__simulator_1_1channelModel_1a694e5c8da4102f4434347eeef9c2e393" prot="public" virt="pure-virtual"><scope>gr::channel_simulator::channelModel</scope><name>set_taps</name></member>
+      <member refid="classgr_1_1channel__simulator_1_1channelModel_1a1df16bee408f2a579afb3cda5e533a63" prot="public" virt="non-virtual"><scope>gr::channel_simulator::channelModel</scope><name>sptr</name></member>
+      <member refid="classgr_1_1channel__simulator_1_1channelModel_1a5b91d849fad1d91b580ff28f18defed2" prot="public" virt="pure-virtual"><scope>gr::channel_simulator::channelModel</scope><name>taps</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

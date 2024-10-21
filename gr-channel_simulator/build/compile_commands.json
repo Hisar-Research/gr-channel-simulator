@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/user/Masaüstü/gr-channel_simulator/build/lib",
+  "command": "/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_THREAD_DYN_LINK -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -Dgnuradio_channel_simulator_EXPORTS -I/home/user/Masaüstü/gr-channel_simulator/lib/../include   -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC   -std=c++17 -o CMakeFiles/gnuradio-channel_simulator.dir/channelModel_impl.cc.o -c /home/user/Masaüstü/gr-channel_simulator/lib/channelModel_impl.cc",
+  "file": "/home/user/Masaüstü/gr-channel_simulator/lib/channelModel_impl.cc"
+},
+{
+  "directory": "/home/user/Masaüstü/gr-channel_simulator/build/python/channel_simulator/bindings",
+  "command": "/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -Dchannel_simulator_python_EXPORTS -I/home/user/Masaüstü/gr-channel_simulator/build/python/channel_simulator/bindings -I/home/user/Masaüstü/gr-channel_simulator/python/channel_simulator/bindings/../../../lib -I/home/user/Masaüstü/gr-channel_simulator/python/channel_simulator/bindings/../../../include -I/home/user/Masaüstü/gr-channel_simulator/lib/../include -isystem /usr/include/python3.8 -isystem /usr/lib/python3/dist-packages/numpy/core/include   -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -fvisibility=hidden   -flto -fno-fat-lto-objects -Wno-unused-variable -std=c++17 -o CMakeFiles/channel_simulator_python.dir/channelModel_python.cc.o -c /home/user/Masaüstü/gr-channel_simulator/python/channel_simulator/bindings/channelModel_python.cc",
+  "file": "/home/user/Masaüstü/gr-channel_simulator/python/channel_simulator/bindings/channelModel_python.cc"
+},
+{
+  "directory": "/home/user/Masaüstü/gr-channel_simulator/build/python/channel_simulator/bindings",
+  "command": "/usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -Dchannel_simulator_python_EXPORTS -I/home/user/Masaüstü/gr-channel_simulator/build/python/channel_simulator/bindings -I/home/user/Masaüstü/gr-channel_simulator/python/channel_simulator/bindings/../../../lib -I/home/user/Masaüstü/gr-channel_simulator/python/channel_simulator/bindings/../../../include -I/home/user/Masaüstü/gr-channel_simulator/lib/../include -isystem /usr/include/python3.8 -isystem /usr/lib/python3/dist-packages/numpy/core/include   -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -fvisibility=hidden   -flto -fno-fat-lto-objects -Wno-unused-variable -std=c++17 -o CMakeFiles/channel_simulator_python.dir/python_bindings.cc.o -c /home/user/Masaüstü/gr-channel_simulator/python/channel_simulator/bindings/python_bindings.cc",
+  "file": "/home/user/Masaüstü/gr-channel_simulator/python/channel_simulator/bindings/python_bindings.cc"
+}
+]

@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.17">
+  <compound refid="classgr_1_1channel__simulator_1_1channelModel" kind="class"><name>gr::channel_simulator::channelModel</name>
+    <member refid="classgr_1_1channel__simulator_1_1channelModel_1a1df16bee408f2a579afb3cda5e533a63" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1channel__simulator_1_1channelModel_1ad017ad7dc05cb5627b3917ac53ffcc16" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1channel__simulator_1_1channelModel_1a694e5c8da4102f4434347eeef9c2e393" kind="function"><name>set_taps</name></member>
+    <member refid="classgr_1_1channel__simulator_1_1channelModel_1a5b91d849fad1d91b580ff28f18defed2" kind="function"><name>taps</name></member>
+  </compound>
+  <compound refid="classgr_1_1channel__simulator_1_1channelModel__impl" kind="class"><name>gr::channel_simulator::channelModel_impl</name>
+    <member refid="classgr_1_1channel__simulator_1_1channelModel__impl_1acdb2e9022c7d0bec76e0ce87532a4642" kind="variable"><name>d_fir_ccf</name></member>
+    <member refid="classgr_1_1channel__simulator_1_1channelModel__impl_1a1792c1470162f9ab1deb7fc8ecca4b33" kind="variable"><name>d_updated</name></member>
+    <member refid="classgr_1_1channel__simulator_1_1channelModel__impl_1ab550a79eb3d04006d5e617cec78dc947" kind="function"><name>channelModel_impl</name></member>
+    <member refid="classgr_1_1channel__simulator_1_1channelModel__impl_1a62d68660ea348411ae5b93d8e50f9d7a" kind="function"><name>~channelModel_impl</name></member>
+    <member refid="classgr_1_1channel__simulator_1_1channelModel__impl_1a7e4a6a15bd11b874f9d4bdbe229a7817" kind="function"><name>taps</name></member>
+    <member refid="classgr_1_1channel__simulator_1_1channelModel__impl_1aec79a46f782101b2c45dc94b92fbd967" kind="function"><name>set_taps</name></member>
+    <member refid="classgr_1_1channel__simulator_1_1channelModel__impl_1a9838b18da50d3e57c9a9440d519bb438" kind="function"><name>get_next_taps</name></member>
+    <member refid="classgr_1_1channel__simulator_1_1channelModel__impl_1ac6cb76d630625b69c6d15e8a13ed8a9e" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1channel__simulator" kind="namespace"><name>gr::channel_simulator</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a7b33d9dbf0cf13386d9e26abaa8a9535" kind="define"><name>CHANNEL_SIMULATOR_API</name></member>
+  </compound>
+  <compound refid="channelModel_8h" kind="file"><name>channelModel.h</name>
+  </compound>
+  <compound refid="channelModel__impl_8h" kind="file"><name>channelModel_impl.h</name>
+  </compound>
+  <compound refid="channelModel__pydoc__template_8h" kind="file"><name>channelModel_pydoc_template.h</name>
+    <member refid="channelModel__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="channelModel__pydoc__template_8h_1a400d23a09e5bc50828090205ac018fcc" kind="variable"><name>__doc_gr_channel_simulator_channelModel</name></member>
+    <member refid="channelModel__pydoc__template_8h_1ab75083e1dad511a1d3fd695842620785" kind="variable"><name>__doc_gr_channel_simulator_channelModel_channelModel</name></member>
+    <member refid="channelModel__pydoc__template_8h_1a0650325f0816d595f367aa25b867f6a6" kind="variable"><name>__doc_gr_channel_simulator_channelModel_make</name></member>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="build_2python_2channel__simulator_2bindings_2pydoc__macros_8h" kind="file"><name>build/python/channel_simulator/bindings/pydoc_macros.h</name>
+    <member refid="build_2python_2channel__simulator_2bindings_2pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" kind="define"><name>__EXPAND</name></member>
+    <member refid="build_2python_2channel__simulator_2bindings_2pydoc__macros_8h_1a251b23a2efed48ff2ba2d6f449ed33a3" kind="define"><name>__COUNT</name></member>
+    <member refid="build_2python_2channel__simulator_2bindings_2pydoc__macros_8h_1a2815f7ab197591ba9559415c694f9ce0" kind="define"><name>__VA_SIZE</name></member>
+    <member refid="build_2python_2channel__simulator_2bindings_2pydoc__macros_8h_1afdd58e017733f2235c227ef8dd3b2de8" kind="define"><name>__CAT1</name></member>
+    <member refid="build_2python_2channel__simulator_2bindings_2pydoc__macros_8h_1af08fe30f2a41cef10658f6a892d20543" kind="define"><name>__CAT2</name></member>
+    <member refid="build_2python_2channel__simulator_2bindings_2pydoc__macros_8h_1a43c147206df4346db5e9d6445aab28ae" kind="define"><name>__DOC1</name></member>
+    <member refid="build_2python_2channel__simulator_2bindings_2pydoc__macros_8h_1a53738db606593bc1554371d718695fed" kind="define"><name>__DOC2</name></member>
+    <member refid="build_2python_2channel__simulator_2bindings_2pydoc__macros_8h_1a21baf08c04d32485764f227c32b5bf5d" kind="define"><name>__DOC3</name></member>
+    <member refid="build_2python_2channel__simulator_2bindings_2pydoc__macros_8h_1a9463ba0ad86bcb4c59b5aecf8a37174c" kind="define"><name>__DOC4</name></member>
+    <member refid="build_2python_2channel__simulator_2bindings_2pydoc__macros_8h_1a942579d548421ddb2906af7094e5789c" kind="define"><name>__DOC5</name></member>
+    <member refid="build_2python_2channel__simulator_2bindings_2pydoc__macros_8h_1a31ea356761360e78d16525aa69d2dae6" kind="define"><name>__DOC6</name></member>
+    <member refid="build_2python_2channel__simulator_2bindings_2pydoc__macros_8h_1a6f1e731f1c6d2893ff1bf98582a7de6e" kind="define"><name>__DOC7</name></member>
+    <member refid="build_2python_2channel__simulator_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kind="define"><name>DOC</name></member>
+  </compound>
+  <compound refid="docs_2doxygen_2pydoc__macros_8h" kind="file"><name>docs/doxygen/pydoc_macros.h</name>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" kind="define"><name>__EXPAND</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a251b23a2efed48ff2ba2d6f449ed33a3" kind="define"><name>__COUNT</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a2815f7ab197591ba9559415c694f9ce0" kind="define"><name>__VA_SIZE</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1afdd58e017733f2235c227ef8dd3b2de8" kind="define"><name>__CAT1</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1af08fe30f2a41cef10658f6a892d20543" kind="define"><name>__CAT2</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a43c147206df4346db5e9d6445aab28ae" kind="define"><name>__DOC1</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a53738db606593bc1554371d718695fed" kind="define"><name>__DOC2</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a21baf08c04d32485764f227c32b5bf5d" kind="define"><name>__DOC3</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a9463ba0ad86bcb4c59b5aecf8a37174c" kind="define"><name>__DOC4</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a942579d548421ddb2906af7094e5789c" kind="define"><name>__DOC5</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a31ea356761360e78d16525aa69d2dae6" kind="define"><name>__DOC6</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a6f1e731f1c6d2893ff1bf98582a7de6e" kind="define"><name>__DOC7</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kind="define"><name>DOC</name></member>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_37328ae41994065321ab0b99a1474795" kind="dir"><name>bindings</name>
+  </compound>
+  <compound refid="dir_59d43c343001eedea84d67e211be3657" kind="dir"><name>bindings</name>
+  </compound>
+  <compound refid="dir_e04723e9be5acb55185796a8baa2d765" kind="dir"><name>channel_simulator</name>
+  </compound>
+  <compound refid="dir_dfeee54095f65a5579f9c5300a290bfa" kind="dir"><name>channel_simulator</name>
+  </compound>
+  <compound refid="dir_9b7713a30bc761f957fa4a449504d9f1" kind="dir"><name>channel_simulator</name>
+  </compound>
+  <compound refid="dir_49e56c817e5e54854c35e136979f97ca" kind="dir"><name>docs</name>
+  </compound>
+  <compound refid="dir_097289a6a904d5b63ecebaac158de90a" kind="dir"><name>docstrings</name>
+  </compound>
+  <compound refid="dir_359d2bec989c9a8deeeb9aee335c1c76" kind="dir"><name>doxygen</name>
+  </compound>
+  <compound refid="dir_902d6fe55786be073ae6681293cdb979" kind="dir"><name>gnuradio</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_f2cd86917185299abf5a1f0679072f3c" kind="dir"><name>other</name>
+  </compound>
+  <compound refid="dir_ab3dd591509f89c87d6a9fd8136a6d03" kind="dir"><name>python</name>
+  </compound>
+  <compound refid="dir_7837fde3ab9c1fb2fc5be7b717af8d79" kind="dir"><name>python</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

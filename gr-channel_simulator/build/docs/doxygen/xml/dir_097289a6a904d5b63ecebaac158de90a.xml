@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_097289a6a904d5b63ecebaac158de90a" kind="dir">
+    <compoundname>docstrings</compoundname>
+    <innerfile refid="channelModel__pydoc__template_8h">channelModel_pydoc_template.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/user/Masaüstü/gr-channel_simulator/python/channel_simulator/bindings/docstrings/"/>
+  </compounddef>
+</doxygen>

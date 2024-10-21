@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_dfeee54095f65a5579f9c5300a290bfa" kind="dir">
+    <compoundname>channel_simulator</compoundname>
+    <innerdir refid="dir_59d43c343001eedea84d67e211be3657">bindings</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/user/Masaüstü/gr-channel_simulator/build/python/channel_simulator/"/>
+  </compounddef>
+</doxygen>

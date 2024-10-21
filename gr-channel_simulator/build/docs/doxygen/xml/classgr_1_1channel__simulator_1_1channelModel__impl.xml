@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1channel__simulator_1_1channelModel__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::channel_simulator::channelModel_impl</compoundname>
+    <basecompoundref refid="classgr_1_1channel__simulator_1_1channelModel" prot="public" virt="non-virtual">gr::channel_simulator::channelModel</basecompoundref>
+    <includes refid="channelModel__impl_8h" local="no">channelModel_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1channel__simulator_1_1channelModel__impl_1acdb2e9022c7d0bec76e0ce87532a4642" prot="private" static="no" mutable="no">
+        <type>filter::kernel::fir_filter&lt; gr_complex, gr_complex, float &gt; *</type>
+        <definition>filter::kernel::fir_filter&lt;gr_complex, gr_complex, float&gt;* gr::channel_simulator::channelModel_impl::d_fir_ccf</definition>
+        <argsstring></argsstring>
+        <name>d_fir_ccf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Masaüstü/gr-channel_simulator/lib/channelModel_impl.h" line="21" column="34" bodyfile="/home/user/Masaüstü/gr-channel_simulator/lib/channelModel_impl.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1channel__simulator_1_1channelModel__impl_1a1792c1470162f9ab1deb7fc8ecca4b33" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::channel_simulator::channelModel_impl::d_updated</definition>
+        <argsstring></argsstring>
+        <name>d_updated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Masaüstü/gr-channel_simulator/lib/channelModel_impl.h" line="22" column="12" bodyfile="/home/user/Masaüstü/gr-channel_simulator/lib/channelModel_impl.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1channel__simulator_1_1channelModel__impl_1ab550a79eb3d04006d5e617cec78dc947" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::channel_simulator::channelModel_impl::channelModel_impl</definition>
+        <argsstring>(int decimation, std::vector&lt; float &gt; taps)</argsstring>
+        <name>channelModel_impl</name>
+        <param>
+          <type>int</type>
+          <declname>decimation</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Masaüstü/gr-channel_simulator/lib/channelModel_impl.h" line="25" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1channel__simulator_1_1channelModel__impl_1a62d68660ea348411ae5b93d8e50f9d7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::channel_simulator::channelModel_impl::~channelModel_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~channelModel_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Masaüstü/gr-channel_simulator/lib/channelModel_impl.h" line="26" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1channel__simulator_1_1channelModel__impl_1a7e4a6a15bd11b874f9d4bdbe229a7817" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::channel_simulator::channelModel_impl::taps</definition>
+        <argsstring>() const override</argsstring>
+        <name>taps</name>
+        <reimplements refid="classgr_1_1channel__simulator_1_1channelModel_1a5b91d849fad1d91b580ff28f18defed2">taps</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Masaüstü/gr-channel_simulator/lib/channelModel_impl.h" line="28" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1channel__simulator_1_1channelModel__impl_1aec79a46f782101b2c45dc94b92fbd967" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::channel_simulator::channelModel_impl::set_taps</definition>
+        <argsstring>(std::vector&lt; float &gt; taps) override</argsstring>
+        <name>set_taps</name>
+        <reimplements refid="classgr_1_1channel__simulator_1_1channelModel_1a694e5c8da4102f4434347eeef9c2e393">set_taps</reimplements>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Masaüstü/gr-channel_simulator/lib/channelModel_impl.h" line="29" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1channel__simulator_1_1channelModel__impl_1a9838b18da50d3e57c9a9440d519bb438" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::channel_simulator::channelModel_impl::get_next_taps</definition>
+        <argsstring>(std::ifstream &amp;infile)</argsstring>
+        <name>get_next_taps</name>
+        <param>
+          <type>std::ifstream &amp;</type>
+          <declname>infile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Masaüstü/gr-channel_simulator/lib/channelModel_impl.h" line="30" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1channel__simulator_1_1channelModel__impl_1ac6cb76d630625b69c6d15e8a13ed8a9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::channel_simulator::channelModel_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/user/Masaüstü/gr-channel_simulator/lib/channelModel_impl.h" line="35" column="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::channel_simulator::channelModel_impl</label>
+        <link refid="classgr_1_1channel__simulator_1_1channelModel__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::sync_decimator</label>
+      </node>
+      <node id="2">
+        <label>gr::channel_simulator::channelModel</label>
+        <link refid="classgr_1_1channel__simulator_1_1channelModel"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::channel_simulator::channelModel_impl</label>
+        <link refid="classgr_1_1channel__simulator_1_1channelModel__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::sync_decimator</label>
+      </node>
+      <node id="2">
+        <label>gr::channel_simulator::channelModel</label>
+        <link refid="classgr_1_1channel__simulator_1_1channelModel"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/user/Masaüstü/gr-channel_simulator/lib/channelModel_impl.h" line="18" column="1" bodyfile="/home/user/Masaüstü/gr-channel_simulator/lib/channelModel_impl.h" bodystart="17" bodyend="40"/>
+    <listofallmembers>
+      <member refid="classgr_1_1channel__simulator_1_1channelModel__impl_1ab550a79eb3d04006d5e617cec78dc947" prot="public" virt="non-virtual"><scope>gr::channel_simulator::channelModel_impl</scope><name>channelModel_impl</name></member>
+      <member refid="classgr_1_1channel__simulator_1_1channelModel__impl_1acdb2e9022c7d0bec76e0ce87532a4642" prot="private" virt="non-virtual"><scope>gr::channel_simulator::channelModel_impl</scope><name>d_fir_ccf</name></member>
+      <member refid="classgr_1_1channel__simulator_1_1channelModel__impl_1a1792c1470162f9ab1deb7fc8ecca4b33" prot="private" virt="non-virtual"><scope>gr::channel_simulator::channelModel_impl</scope><name>d_updated</name></member>
+      <member refid="classgr_1_1channel__simulator_1_1channelModel__impl_1a9838b18da50d3e57c9a9440d519bb438" prot="public" virt="non-virtual"><scope>gr::channel_simulator::channelModel_impl</scope><name>get_next_taps</name></member>
+      <member refid="classgr_1_1channel__simulator_1_1channelModel_1ad017ad7dc05cb5627b3917ac53ffcc16" prot="public" virt="non-virtual"><scope>gr::channel_simulator::channelModel_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1channel__simulator_1_1channelModel__impl_1aec79a46f782101b2c45dc94b92fbd967" prot="public" virt="virtual"><scope>gr::channel_simulator::channelModel_impl</scope><name>set_taps</name></member>
+      <member refid="classgr_1_1channel__simulator_1_1channelModel_1a1df16bee408f2a579afb3cda5e533a63" prot="public" virt="non-virtual"><scope>gr::channel_simulator::channelModel_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1channel__simulator_1_1channelModel__impl_1a7e4a6a15bd11b874f9d4bdbe229a7817" prot="public" virt="virtual"><scope>gr::channel_simulator::channelModel_impl</scope><name>taps</name></member>
+      <member refid="classgr_1_1channel__simulator_1_1channelModel__impl_1ac6cb76d630625b69c6d15e8a13ed8a9e" prot="public" virt="non-virtual"><scope>gr::channel_simulator::channelModel_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1channel__simulator_1_1channelModel__impl_1a62d68660ea348411ae5b93d8e50f9d7a" prot="public" virt="non-virtual"><scope>gr::channel_simulator::channelModel_impl</scope><name>~channelModel_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
